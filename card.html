@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Invitation</title>
+        <link rel="icon" type="image/x-icon" href="/public/img/heart.png" />
+        <link rel="stylesheet" href="public/styles/global-styles.css" />
+        <link rel="stylesheet" href="public/styles/card-styles.css" />
+    </head>
+    <body>
+        <img class="glitter" src="public/img/sparkles.gif" draggable="false" />
+        <h1>You have a date!</h1>
+        <button style="width: 6em;" id="play" onclick="play()"><b>PRESS ME</b></button>
+        <div class="card" id="card">
+            <div class="card-side">
+                <p class="card-text"></p>
+                <img class="hor-img" src="public/img/IMG_3183.jpg" />
+                <p class="card-text">
+                    <b>Where:</b> Mezzaluna Grill <br />
+                    (I drive) <br /> <br>
+                    <b>Who:</b> Just you and me <br /><br />
+                    <b>Date:</b> February 14, 2025 <br /><br />
+                    <b>Time:</b> 8:00 PM <br />
+                    (I already got permission to sleep over)
+                </p>
+            </div>
+            <div class="card-side">
+                <h2>What you can wear:</h2>
+                <img class="ver-img" src="public/img/IMG_4029.JPG" />
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="gallery.html">
+                <button>Gallery</button>
+            </a>
+            <button id="download-btn">Download</button>
+        </div>
+
+        <audio autoplay loop id="myaudio">
+            <source src="public/audio/ChestPain.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+        <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js"></script>
+        <script src="public/js/download.js"></script>
+        <script src="public/js/script.js"></script>
+    </body>
+</html>

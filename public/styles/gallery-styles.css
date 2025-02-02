@@ -1,0 +1,28 @@
+.scroll-box {
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y:hidden;
+}
+
+.gallery {
+    padding-left: 450px;
+    padding-right: 100px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-img {
+    background-color: white;
+    border-radius: 4px;
+    width: 18em;
+    box-shadow: 5px 5px 5px palevioletred;
+}
